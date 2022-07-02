@@ -1,4 +1,4 @@
-# `caronte$`
+# `Carota🥕`
 
 [![Test Status](https://github.com/eciavatta/caronte/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/eciavatta/caronte/actions/workflows/test.yml)
 [![Deploy Status](https://github.com/eciavatta/caronte/actions/workflows/deploy.yml/badge.svg)](https://github.com/eciavatta/caronte/actions/workflows/deploy.yml)
@@ -8,7 +8,7 @@
 ![Language](https://img.shields.io/badge/language-go-blue)
 ![License](https://img.shields.io/github/license/eciavatta/caronte)
 
-Caronte is a tool to analyze the network flow during capture the flag events of type attack/defence.
+Carota is a tool to analyze the network flow during capture the flag events of type attack/defence.
 It reassembles TCP packets captured in pcap files to rebuild TCP connections, and analyzes each connection to find user-defined patterns.
 The patterns can be defined as regex or using protocol specific rules.
 The connection flows are saved into a database and can be visualized with the web application. REST API are also provided.
@@ -40,7 +40,7 @@ The connection flows are saved into a database and can be visualized with the we
     -   if more addresses are assigned to the vulnerable machine to be defended, a CIDR address can be used
 
 ## Installation
-There are two ways to install Caronte:
+There are two ways to install Carota:
 -   with Docker and docker-compose, the fastest and easiest way
 -   manually installing dependencies and compiling the project
 
