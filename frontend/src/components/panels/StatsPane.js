@@ -37,7 +37,7 @@ class StatsPane extends Component {
         this.loadResourcesStats();
         this.loadRules();
         dispatcher.register("notifications", this.handleNotifications);
-        document.title = "caronte:~/stats$";
+        document.title = "carota:~/stats🥕";
         this.intervalToken = setInterval(() => this.loadResourcesStats(), 3000);
     }
 

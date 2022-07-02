@@ -46,7 +46,7 @@ class PcapsPane extends Component {
     componentDidMount() {
         this.loadSessions();
         dispatcher.register("notifications", this.handleNotifications);
-        document.title = "caronte:~/pcaps$";
+        document.title = "carota:~/pcaps🥕";
     }
 
     componentWillUnmount() {

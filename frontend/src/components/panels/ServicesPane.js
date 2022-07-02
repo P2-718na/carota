@@ -53,7 +53,7 @@ class ServicesPane extends Component {
         this.loadServices();
 
         dispatcher.register("notifications", this.handleNotifications);
-        document.title = "caronte:~/services$";
+        document.title = "carota:~/services🥕";
     }
 
     componentWillUnmount() {

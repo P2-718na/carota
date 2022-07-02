@@ -61,7 +61,7 @@ class SearchPane extends Component {
         this.loadSearches();
 
         dispatcher.register("notifications", this.handleNotification);
-        document.title = "caronte:~/searches$";
+        document.title = "carota:~/searches🥕";
     }
 
     componentWillUnmount() {

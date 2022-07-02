@@ -33,7 +33,7 @@ class Header extends Component {
 
     componentDidMount() {
         const options = {
-            strings: ["caronte$ "],
+            strings: ["carota🥕 "],
             typeSpeed: 50,
             cursorChar: "❚"
         };

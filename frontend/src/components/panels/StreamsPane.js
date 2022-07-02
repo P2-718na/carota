@@ -51,7 +51,7 @@ class StreamsPane extends Component {
             this.loadStream(this.props.connection.id);
         }
 
-        document.title = "caronte:~/$";
+        document.title = "carota:~/🥕";
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {

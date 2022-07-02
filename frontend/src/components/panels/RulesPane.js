@@ -89,7 +89,7 @@ class RulesPane extends Component {
         this.loadRules();
 
         dispatcher.register("notifications", this.handleNotifications);
-        document.title = "caronte:~/rules$";
+        document.title = "carota:~/rules🥕";
     }
 
     componentWillUnmount() {
